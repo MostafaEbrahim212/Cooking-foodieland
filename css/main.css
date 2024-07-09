@@ -304,6 +304,7 @@ ul {
 
 
 
+
 .recipes .left {
     width: 35%;
     display: flex;
@@ -364,7 +365,7 @@ ul {
         display: none;
     }
 
-}
+}   
 
 @media(max-width: 768px) {
     .recipes {
@@ -375,6 +376,18 @@ ul {
         flex-direction: column;
     }
 }
+
+@media (max-width: 576px) {
+    .recipes {
+        margin-top: 4rem;
+        flex-direction: column;
+    }
+
+    .recipes .left {
+        width: 100%;
+    }
+}
+
 
 /* end header */
 
