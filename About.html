@@ -80,62 +80,6 @@
     </nav>
     <!-- end nav -->
 
-    <!-- start contact  -->
-    <section class="contact py-5">
-        <div class="container py-5">
-            <h2 class="contact-text">Contact us</h2>
-            <div class="row">
-                <div class="card col-md-4 contact-left border-0">
-                    <img src="./images/contact-chef-img.png" alt="">
-                </div>
-                <div class="card col-md-8 contact-right py-3 border-0">
-                    <form action="">
-                        <div class="row mb-3">
-                            <div class="col-md-6">
-                                <div class="mb-3">
-                                    <label for="name" class="form-label">NAME</label>
-                                    <input type="text" class="form-control" id="name" placeholder="Enter your name...">
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="mb-3">
-                                    <label for="email" class="form-label">EMAIL ADDRESS</label>
-                                    <input type="email" class="form-control" id="email"
-                                        placeholder="Your email adress...">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row mb-3">
-                            <div class="col-md-6">
-                                <div class="mb-3">
-                                    <label for="subject" class="form-label">SUBJECT</label>
-                                    <input type="text" class="form-control" id="subject" placeholder="Enter subject...">
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="mb-3">
-                                    <label for="email" class="form-label">ENQUIRY TYPE</label>
-                                    <select class="form-select">
-                                        <option selected>Advertising</option>
-                                        <option value="1">Feedback</option>
-                                        <option value="2">Complaint</option>
-                                        <option value="3">Other</option>
-                                    </select>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="mb-3">
-                            <label for="message" class="form-label">Message</label>
-                            <textarea class="form-control" id="message" rows="3"
-                                placeholder="Enter your messages..."></textarea>
-                        </div>
-                        <button type="submit" class="btn-black">Submit</button>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- End Contact -->
 
     <!-- start inbox  -->
     <section class="inbox py-5">
@@ -152,63 +96,6 @@
     </section>
     <!-- end inbox  -->
 
-
-    <!-- start delicious -->
-    <section class="delicious py-5">
-        <div class="container py-5">
-            <h2>Check out the delicious recipe</h2>
-            <div class="row">
-                <script>
-                    const delicious = [
-                        {
-                            img: "./images/delicious/dish-1.png",
-                            title: "Mixed Tropical Fruit Salad with Superfood Boosts",
-                            type: "Healthy",
-                            fav_icon: "./images/saved.png"
-                        },
-                        {
-                            img: "./images/delicious/dish-2.png",
-                            title: "Big and Juicy Wagyu Beef Cheeseburger",
-                            type: "Western",
-                            fav_icon: "./images/unsaved.svg"
-
-                        },
-                        {
-                            img: "./images/delicious/dish-3.png",
-                            title: "Healthy Japanese Fried Rice with Asparagus",
-                            type: "Healthy",
-                            fav_icon: "./images/unsaved.svg"
-                        }, {
-                            img: "./images/delicious/dish-4.png",
-                            title: "Cauliflower Walnut Vegetarian Taco Meat",
-                            type: "Eastern",
-                            fav_icon: "./images/saved.png"
-                        }
-                    ];
-                    delicious.forEach((item) => {
-                        document.write(`
-                        <div class="card py-3 col-md-3 border-0">
-                            <div class="delicious-card">
-                                <img src="${item.img}" class="card-img-top">
-                                <div class="card-body ps-0">
-                                    <h5 class="card-title">${item.title}</h5>
-                                    <div class="info d-flex justify-content-evenly">
-                                        <a href="#" class="d-block"> <span class="me-2"><i
-                                                class="fa-solid fa-clock"></i></span>30
-                                            Minutes</a>
-                                        <a href="#" class="d-block"> <span class="me-2"><i
-                                                class="fa-solid fa-utensils"></i></span>${item.type}</a>
-                                    </div>
-                                </div>
-                            </div>  
-                        </div>
-                        `);
-                    });
-                </script>
-            </div>
-        </div>
-    </section>
-    <!-- end delicious -->
 
     <!-- start footer -->
     <footer class="py-5">
