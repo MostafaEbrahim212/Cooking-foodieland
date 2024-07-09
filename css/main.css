@@ -91,7 +91,7 @@ ul {
 
 
 .nav-sections {
-    width: 450px;
+    max-width: 450px;
     display: flex;
     justify-content: space-between;
     color: #000;
