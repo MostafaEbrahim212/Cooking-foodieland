@@ -1,6 +1,6 @@
 # Foodieland
 
-![Foodieland](./images/home-page.jpeg)
+![ScreenShot](./images/home-page.jpeg)
 
 Foodieland هو موقع ويب مخصص لعشاق الطعام. يوفر وصفات، نصائح طهي، وأخبار عن أحدث الاتجاهات في عالم الطعام.
 
