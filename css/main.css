@@ -65,6 +65,7 @@ ul {
 
 .main-nav {
     position: sticky;
+    z-index: 100000000000;
 }
 
 
