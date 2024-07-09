@@ -712,6 +712,14 @@ ul {
     margin-bottom: 2rem;
 }
 
+@media (max-width: 768px) {
+    .chef .chef-left h2 {
+        text-align: center;
+        font-size: 32px;
+    }
+
+}
+
 .chef .chef-left p {
     max-width: 508px;
     color: rgba(0, 0, 0, 0.60);
