@@ -365,7 +365,7 @@ ul {
         display: none;
     }
 
-}   
+}
 
 @media(max-width: 768px) {
     .recipes {
@@ -500,6 +500,12 @@ ul {
     font-size: 48px;
     font-weight: 600;
     letter-spacing: -1.92px;
+}
+
+@media (max-width: 768px) {
+    .special-section h1 {
+        font-size: 32px;
+    }
 }
 
 .special-section p {
