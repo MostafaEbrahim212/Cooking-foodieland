@@ -1,0 +1,10 @@
+/* Variables for colors, fonts, and spacing */
+:root {
+    --primary-color: #000;
+    --secondary-color: #FF7426;
+    --background-color: #fff;
+    --secondary-background-color: #E7FAFE;
+    --text-color: #333;
+    --font-family: 'Inter', sans-serif;
+    --spacing: 1rem;
+}

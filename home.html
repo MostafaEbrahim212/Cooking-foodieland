@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is a website for cooking">
+    <title>Foodieland</title>
+
+    <!-- start fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <!-- end fonts -->
+
+    <!-- start css files -->
+    <link rel="stylesheet" href="./css/base/all.min.css">
+    <link rel="stylesheet" href="./css/base/normalize.css">
+    <link rel="stylesheet" href="./css/base/variables.css">
+    <link rel="stylesheet" href="./css/base/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <!-- end css files -->
+</head>
+
+<body>
+
+    <button onclick="topfunction()" class="btn-top" id="topButton"><i
+            class="fa-solid fa-arrow-up top-icon"></i></button>
+    <!-- start nav -->
+    <nav class="navbar navbar-expand-lg bg-white text-dark fixed-top  main-nav">
+        <div class="container">
+            <a class="navbar-brand web-brand" href="#">Foodieland<span>.</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto nav-sections">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Recipes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About us</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav nav-socaial">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fa-brands fa-twitter"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fa-brands fa-instagram"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- end nav -->
+
+    <!-- start header -->
+    <section class="py-5 header-sec w-100">
+        <div class="container py-5 position-relative head-cont">
+            <img class="header-badge position-absolute" src="./images/Badge.png" />
+            <div class="row py-5 position-relative header-row">
+                <div class="col-md-6 header-left align-items-stretch">
+                    <a href="#" class="btn-header"><span><img src="images/hotrecipes.png" alt=""></span> Hot Recipes</a>
+                    <div class="header-content">
+                        <h1>Spicy delicious chicken wings</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut
+                            labore
+                            et dolore magna aliqut enim ad minim </p>
+                    </div>
+
+                    <div class="header-btn">
+                        <a href="#" class=""> <span><i class="fa-solid fa-clock"></i></span>30 Minutes</a>
+                        <a href="#" class=""> <span><i class="fa-solid fa-utensils"></i></span> Chicken</a>
+                    </div>
+
+                    <div class="recipes">
+                        <div class="left">
+                            <img src="./images/Ellipse 2.svg" alt="recipe image">
+                            <div>
+                                <h4>John Smith</h4>
+                                <p>15 March 2022</p>
+                            </div>
+                        </div>
+                        <a href="" class="btn-black">view Recipes <span><img src="images/PlayCircle.png"
+                                    alt=""></span></a>
+                    </div>
+                </div>
+
+                <div class="col-md-6 header-right align-items-stretch">
+                    <img src="./images/header-img.png" alt="header image">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end header -->
+
+    <!-- start category -->
+    <section class="category py-5">
+        <div class="container">
+            <div class="category-head">
+                <h2 class="">Categories</h2>
+                <a href="#" class="">View All Categories</a>
+            </div>
+            <div class="row categories justify-content-between">
+                <div class="card col-lg-2 col-md-4 col-sm-6 border-0">
+                    <div class=" category-item breakfast">
+                        <img src="images/breakfast.png" alt="">
+                        <p>Breakfast</p>
+                    </div>
+                </div>
+                <div class="card col-lg-2 col-md-4 col-sm-6 border-0">
+                    <div class="category-item vegan">
+                        <img src="images/vegan.png" alt="">
+                        <p>Vegan</p>
+                    </div>
+                </div>
+                <div class="card col-lg-2 col-md-4 col-sm-6 border-0">
+                    <div class="category-item meat">
+                        <img src="images/meat.png" alt="">
+                        <p>Meat</p>
+                    </div>
+                </div>
+                <div class="card col-lg-2 col-md-4 col-sm-6 border-0">
+                    <div class="category-item dessert">
+                        <img src="images/dessert.png" alt="">
+                        <p>Dessert</p>
+                    </div>
+                </div>
+                <div class="card col-lg-2 col-md-4 col-sm-6 border-0">
+                    <div class="category-item lunch">
+                        <img src="images/lunch.png" alt="">
+                        <p>Lunch</p>
+                    </div>
+                </div>
+                <div class="card col-lg-2 col-md-4 col-sm-6 border-0">
+                    <div class="category-item chocolate">
+                        <img src="images/chocolate.png" alt="">
+                        <p>Chocolate</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end category -->
+
+    <!-- start tasty -->
+    <section class="tasty py-5">
+        <div class="special-section">
+            <h1>Simple and tasty recipes</h1>
+            <p>Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore
+                magna aliqut enim ad minim </p>
+        </div>
+        <!-- start dishes -->
+        <div class="container py-5">
+            <div class="row dishes">
+
+                <script>
+                    const dishes = [
+                        {
+                            img: "./images/dishes/dish-1.png",
+                            title: "Spicy delicious chicken wings",
+                            type: "Chicken",
+                            fav_icon: "images/saved.png",
+                        }, {
+                            img: "./images/dishes/dish-2.png",
+                            title: "Fresh Lime Roasted Salmon with Ginger Sauce",
+                            type: "Fish",
+                            fav_icon: "images/saved.png",
+                        }, {
+                            img: "./images/dishes/dish-3.png",
+                            title: "Strawberry Oatmeal Pancake with Honey Syrup",
+                            type: "Breakfast",
+                            icon: "breakfast",
+                            fav_icon: "images/saved.png",
+                        }, {
+                            img: "./images/dishes/dish-4.png",
+                            title: "Fresh and Healthy Mixed Mayonnaise Salad",
+                            type: "Healthy",
+                            fav_icon: "images/saved.png",
+                        }, {
+                            img: "./images/dishes/dish-5.png",
+                            title: "Chicken Meatballs with Cream Cheese",
+                            type: "Meat",
+                            fav_icon: "images/saved.png",
+                        }, {
+                            img: "./images/dishes/dish-6.png",
+                            title: "Fruity Pancake with Orange & Blueberry",
+                            type: "Sweet",
+                            fav_icon: "images/saved.png",
+                        }, {
+                            img: "./images/dishes/dish-7.png",
+                            title: "The Best Easy One Pot Chicken and Rice",
+                            type: "Snack",
+                            fav_icon: "images/saved.png",
+                        }, {
+                            img: "./images/dishes/dish-8.png",
+                            title: "The Creamiest Creamy Chicken and Bacon Pasta",
+                            type: "Noodles",
+                            fav_icon: "images/saved.png",
+                        },
+                    ];
+
+                    for (let i = 0; i < dishes.length; i++) {
+                        if (i % 2 == 0) {
+                            dishes[i].fav_icon = "images/unsaved.svg";
+                        }
+                        if (i == 5) {
+                            const adElement = `
+                            <div class="card ad-cont col-lg-4 col-md-6 col-sm-12">
+                                <div class="ad-card">
+                                <p>Don’t forget to eat <br> healthy food</p>
+                                <img src="./images/dishes/ad.png">
+                                <a href="#">www.foodieland.com</a>
+                            </div>
+                            </div>
+                            `;
+                            document.querySelector(".dishes").innerHTML += adElement;
+                        }
+                        const dish = dishes[i];
+                        const dishElement = `
+                        <div class="card col-lg-4 col-md-6 col-sm-12 ">
+                            <div class= "dish position-relative">
+                            <a href="#" class="position-absolute btn-fav"><img src="${dish.fav_icon}" alt=""></a>
+                            <img src="${dish.img}" alt="dish image">
+                            <div class="dish-content">
+                                <h4>${dish.title}</h4>
+                                <div class="dish-btn">
+                                    <a href="#" class=""> <span><i class="fa-solid fa-clock dish-icon"></i></span>30 Minutes</a>
+                                    <a href="#" class=""> <span><i class="fa-solid fa-utensils dish-icon"></i></span> ${dish.type}</a>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                        `;
+                        document.querySelector(".dishes").innerHTML += dishElement;
+                    }
+                </script>
+            </div>
+        </div>
+        <!-- end dishes -->
+
+    </section>
+    <!-- end tasty -->
+
+    <!-- start chef -->
+    <section class="chef py-5">
+        <div class="container">
+            <div class="row">
+                <div class="card col-md-6 border-0 chef-left">
+                    <h2>Everyone can be a <br> chef in their own kitchen</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore
+                        et
+                        dolore magna aliqut enim ad minim </p>
+                    <a href="" class="btn-black">Learn More</a>
+                </div>
+                <div class="card col-md-6 border-0 chef-right">
+                    <div class="chef-img">
+                        <img src="./images/chef-img.png" alt="chef image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end chef -->
+
+    <!-- start instagram -->
+    <section class="instagram py-5">
+        <div class="container">
+            <div class="special-section">
+                <h1>Check out @foodieland on Instagram</h1>
+                <p>Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et
+                    dolore magna aliqut enim ad minim </p>
+            </div>
+            <div class="row mb-5 posts">
+                <div class="card col-lg-3 col-md-6 col-sm-12 border-0 post">
+                    <img src="./images/instagram posts/1.png" alt="instagram image">
+                </div>
+                <div class="card col-lg-3 col-md-6 col-sm-12 border-0 post">
+                    <img src="./images/instagram posts/2.png" alt="instagram image">
+                </div>
+                <div class="card col-lg-3 col-md-6 col-sm-12 border-0 post">
+                    <img src="./images/instagram posts/3.png" alt="instagram image">
+                </div>
+                <div class="card col-lg-3 col-md-6 col-sm-12 border-0 post">
+                    <img src="./images/instagram posts/4.png" alt="instagram image">
+                </div>
+            </div>
+        </div>
+        <a href="" class="btn-black d-block mx-auto">Visit Our Instagram<i
+                class="fa-brands fa-instagram insta-icon"></i></a>
+    </section>
+    <!-- end instagram -->
+
+
+    <!--start tryDishes -->
+    <section class="tryDishes py-5">
+        <div class="container py-5">
+            <div class="header">
+                <h2>Try this delicious recipe
+                    to make your day</h2>
+                <p>Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut
+                    labore et
+                    dolore magna aliqut enim ad minim </p>
+            </div>
+            <div class="row dishes" id="dishes">
+                <script>
+                    const tryDishes = [
+                        {
+                            img: "./images/tryDishes/dishes/dish-1.png",
+                            title: "Mixed Tropical Fruit Salad with Superfood Boosts ",
+                            type: "Healthy",
+                            fav_icon: "images/saved.png",
+                        }, {
+                            img: "./images/tryDishes/dishes/dish-2.png",
+                            title: "Big and Juicy Wagyu Beef Cheeseburger",
+                            type: "Western",
+                            fav_icon: "images/saved.png",
+                        }, {
+                            img: "./images/tryDishes/dishes/dish-3.png",
+                            title: "Healthy Japanese Fried Rice with Asparagus",
+                            type: "Healthy",
+                            fav_icon: "images/saved.png",
+                        }, {
+                            img: "./images/tryDishes/dishes/dish-4.png",
+                            title: "Cauliflower Walnut Vegetarian Taco Meat",
+                            type: "Eastern",
+                            fav_icon: "images/saved.png",
+                        }, {
+                            img: "./images/tryDishes/dishes/dish-5.png",
+                            title: "Rainbow Chicken Salad with Almond Honey Mustard Dressing",
+                            type: "Healthy",
+                            fav_icon: "images/saved.png",
+                        }, {
+                            img: "./images/tryDishes/dishes/dish-6.png",
+                            title: "Barbeque Spicy Sandwiches with Chips ",
+                            type: "Snack",
+                            fav_icon: "images/saved.png",
+                        }, {
+                            img: "./images/tryDishes/dishes/dish-7.png",
+                            title: "Firecracker Vegan Lettuce Wraps - Spicy! ",
+                            type: "Seafood",
+                            fav_icon: "images/saved.png",
+                        }, {
+                            img: "./images/tryDishes/dishes/dish-8.png",
+                            title: "Chicken Ramen Soup with Mushroom ",
+                            type: "Japanese",
+                            fav_icon: "images/saved.png",
+                        },
+                    ];
+
+                    for (let i = 0; i < tryDishes.length; i++) {
+                        if (i % 2 == 0) {
+                            tryDishes[i].fav_icon = "images/unsaved.svg";
+                        }
+                        const dish = dishes[i];
+                        const dishElement = `
+                        <div class="card col-lg-3 col-md-6 col-sm-12 ">
+                            <div class= "dish position-relative">
+                            <a href="#" class="position-absolute btn-fav"><img src="${dish.fav_icon}" alt=""></a>
+                            <img src="${dish.img}" alt="dish image">
+                            <div class="dish-content">
+                                <h4>${dish.title}</h4>
+                                <div class="dish-btn">
+                                    <a href="#" class=""> <span><i class="fa-solid fa-clock dish-icon"></i></span>30 Minutes</a>
+                                    
+                                    <a href="#" class=""> <span><i class="fa-solid fa-utensils dish-icon"></i></span> ${dish.type}</a>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                        `;
+                        document.querySelector("#dishes").innerHTML += dishElement;
+                    }
+                </script>
+            </div>
+        </div>
+    </section>
+    <!--end tryDishes -->
+
+
+    <!-- start inbox  -->
+    <section class="inbox py-5">
+        <div class="container py-5">
+            <h2>Deliciousness to your inbox</h2>
+            <p>Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqut enim ad minim </p>
+            <div class="email-group">
+                <input type="email" class="" placeholder="Your Email Address">
+                <button class="" type="button" id="button-addon2">Subscribe</button>
+            </div>
+
+        </div>
+    </section>
+    <!-- end inbox  -->
+
+
+    <!-- start footer -->
+    <footer class="py-5">
+        <div class="container">
+            <div class="row footer-top">
+                <div class="col-md-6 footer-left">
+                    <h4 class="web-brand">Foodieland<span>.</span></h4>
+                    <p class="">Lorem ipsum dolor sit amet, consectetuipisicing elit, </p>
+                </div>
+                <div class="col-md-6 footer-right">
+                    <ul>
+                        <li><a href="#">Recipes</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">About us</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="footer-line">
+            <div class="row footer-bottom">
+                <div class="col-md-8 footer-left">
+                    <p>© 2024 Foodieland. powerd by <span class="footer-credit">Mostafa</span></p>
+                </div>
+                <div class="col-md-4 footer-right">
+                    <ul>
+                        <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+    </footer>
+    <!-- end footer -->
+
+
+
+    <!-- start js files -->
+    <script src="./js/all.min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/jquery-3.7.1.min.js"></script>
+    <script src="./js/script.js"></script>
+    <!-- end js files -->
+</body>
+
+</html>
