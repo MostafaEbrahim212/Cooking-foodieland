@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is a website for cooking">
+    <!-- icon -->
+    <link rel="icon" href="./images/webIcon.png" type="image/png">
+    <title>Foodieland</title>
+
+    <!-- start fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <!-- end fonts -->
+
+    <!-- start css files -->
+    <link rel="stylesheet" href="./css/base/all.min.css">
+    <link rel="stylesheet" href="./css/base/normalize.css">
+    <link rel="stylesheet" href="./css/base/variables.css">
+    <link rel="stylesheet" href="./css/base/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <!-- end css files -->
+</head>
+
+<body>
+
+    <button onclick="topfunction()" class="btn-top" id="topButton"><i
+            class="fa-solid fa-arrow-up top-icon"></i></button>
+    <!-- start nav -->
+    <nav class="navbar navbar-expand-lg bg-white text-dark fixed-top  main-nav">
+        <div class="container">
+            <a class="navbar-brand web-brand" href="#">Foodieland<span>.</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto nav-sections">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./Recipes.html">Recipes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./Blog-List.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./Contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./About.html">About us</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav nav-socaial">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fa-brands fa-twitter"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fa-brands fa-instagram"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- end nav -->
+
+    <!-- start blog article landing -->
+    <section class="landing-blog py-5">
+        <div class="container">
+            <div class="landing-text">
+                <h2>Blog & Article</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore</p>
+            </div>
+            <div class="email-group">
+                <input type="email" class="" placeholder="Search article, news or recipe...">
+                <button class="" type="button" id="button-addon2">Search</button>
+            </div>
+        </div>
+    </section>
+    <!-- end blog article landing -->
+
+
+
+    <!-- start blog article -->
+    <section class="main-section blog-articles py-5">
+        <div class="container">
+            <div class="row main-row">
+                <div class="col-lg-8 col-md-12 left-section">
+                    <div class="row">
+                        <script>
+                            const blogs = [
+                                {
+                                    title: "Crochet Projects for Noodle Lovers",
+                                    name: "Wade Warren",
+                                },
+                                {
+                                    title: "10 Vegetarian Recipes To Eat This Month",
+                                    name: "Robert Fox",
+                                },
+                                {
+                                    title: "Full Guide to Becoming a Professional Chef",
+                                    name: "Dianne Russell",
+                                }, {
+                                    title: "Simple & Delicious Vegetarian Lasagna",
+                                    name: "Leslie Alexander",
+                                },
+                                {
+                                    title: "Plantain and Pinto Stew with Aji Verde",
+                                    name: "Courtney Henry",
+                                },
+                                {
+                                    title: "We’re Hiring a Communications Assistant!",
+                                    name: "Albert Flores",
+                                },
+                            ];
+                            for (let i = 0; i < blogs.length; i++) {
+                                document.write(`
+                                <div class="card col-12  d-flex flex-row p-3 border-0">
+                                    <img src="./images/blog-imgs/${i + 1}.png" class="blog-img">
+                                    <div class="card-body">
+                                        <div class="card-text">
+                                            <h5 class="card-title">${blogs[i].title}</h5>
+                                            <p class="card-text">Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do
+                                                eiusmod tempor incididunt ut labore et dolore magna aliqut enim </p>
+                                        </div>
+                                        <div class="card-info">
+                                            <div class="card-info-left">
+                                                <img src="./images/blg-persons/${i + 1}.png" alt="">
+                                                <p>${blogs[i].name}</p>
+                                            </div>
+                                            <div class="card-info-right">
+                                                <p>12 November 2021</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                `);
+                            }
+                        </script>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12 right-section">
+                    <h4>Other Recipe</h4>
+                    <div class="row other-recipe-row">
+                        <div class="other-recipe-card card col-lg-12 col-md-6  border-0">
+                            <div class="other-recipe col-lg-12 col-md-12">
+                                <img src="./images/otherRecipe/1.png" alt="">
+                                <div class="recipe-content">
+                                    <h6>Chicken Meatball with Creamy Chees...</h6>
+                                    <p>By Andreas Paula</p>
+                                </div>
+                            </div>
+                            <div class="other-recipe col-lg-12 col-md-12">
+                                <img src="./images/otherRecipe/2.png" alt="">
+                                <div class="recipe-content">
+                                    <h6>The Creamiest Creamy Chicken an...</h6>
+                                    <p>By Andreas Paula</p>
+                                </div>
+                            </div>
+                            <div class="other-recipe col-lg-12 col-md-12">
+                                <img src="./images/otherRecipe/1.png" alt="">
+                                <div class="recipe-content">
+                                    <h6>Chicken Meatball with Creamy Chees...</h6>
+                                    <p>By Andreas Paula</p>
+                                </div>
+                            </div>
+                            <div class="other-recipe col-lg-12 col-md-12">
+                                <img src="./images/otherRecipe/2.png" alt="">
+                                <div class="recipe-content">
+                                    <h6>The Creamiest Creamy Chicken an...</h6>
+                                    <p>By Andreas Paula</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="ad-card card col-lg-12 col-md-6 p-3  border-0 ">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Don’t forget to eat <br>
+                                    healthy food</h5>
+                                <div class="card-body">
+                                    <img src="./images/dishes/ad.png" alt="">
+                                </div>
+                                <div class="card-footer bg-transparent border-0 text-center">
+                                    <p>www.foodieland.com</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <nav aria-label="...">
+                <ul class="custome-pagination">
+                    <li class="page-item active" aria-current="page">
+                        <span class="page-link">1</span>
+                    </li>
+                    <li class="page-item"><span class="page-link">2</span></li>
+                    <li class="page-item"><span class="page-link">3</span></li>
+                    <li class="page-item"><span class="page-link">4</span></li>
+                    <li class="page-item"><span class="page-link">5</span></li>
+                    <li class="page-item"><span class="page-link">...</span></li>
+                    <li class="page-item"><span class="page-link">></span></li>
+                </ul>
+            </nav>
+        </div>
+    </section>
+    <!-- end blog article -->
+
+    <!-- start inbox  -->
+    <section class="inbox py-5">
+        <div class="container py-5">
+            <h2>Deliciousness to your inbox</h2>
+            <p>Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqut enim ad minim </p>
+            <div class="email-group">
+                <input type="email" class="" placeholder="Your Email Address">
+                <button class="" type="button" id="button-addon2">Subscribe</button>
+            </div>
+
+        </div>
+    </section>
+    <!-- end inbox  -->
+
+
+    <!-- start footer -->
+    <footer class="py-5">
+        <div class="container">
+            <div class="row footer-top">
+                <div class="col-md-6 footer-left">
+                    <h4 class="web-brand">Foodieland<span>.</span></h4>
+                    <p class="">Lorem ipsum dolor sit amet, consectetuipisicing elit, </p>
+                </div>
+                <div class="col-md-6 footer-right">
+                    <ul>
+                        <li><a href="./Recipes.html">Recipes</a></li>
+                        <li><a href="./Blog-List.html">Blog</a></li>
+                        <li><a href="./Contact.html">Contact</a></li>
+                        <li><a href="./About.html">About us</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="footer-line">
+            <div class="row footer-bottom">
+                <div class="col-md-8 footer-left">
+                    <p>© 2024 Foodieland. powerd by <span class="footer-credit">Mostafa</span></p>
+                </div>
+                <div class="col-md-4 footer-right">
+                    <ul>
+                        <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+    </footer>
+    <!-- end footer -->
+
+    <!-- start js files -->
+    <script src="./js/all.min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/jquery-3.7.1.min.js"></script>
+    <script src="./js/script.js"></script>
+    <!-- end js files -->
+</body>
+
+</html>

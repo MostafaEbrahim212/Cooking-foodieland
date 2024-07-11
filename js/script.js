@@ -15,3 +15,13 @@ window.onscroll = () => {
 };
 
 topButton.addEventListener('click', topFunction);
+
+
+document.querySelectorAll('.page-item').forEach(item => {
+    item.addEventListener('click', event => {
+        document.querySelectorAll('.page-item').forEach(item => {
+            item.classList.remove('active');
+        });
+        event.currentTarget.classList.add('active');
+    });
+});

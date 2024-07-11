@@ -53,7 +53,7 @@
                         <a class="nav-link" href="./Recipes.html">Recipes</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./Blog.html">Blog</a>
+                        <a class="nav-link" href="./Blog-List.html">Blog</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="./Contact.html">Contact</a>
@@ -89,8 +89,8 @@
                     et dolore</p>
             </div>
             <div class="email-group">
-                <input type="email" class="" placeholder="Your Email Address">
-                <button class="" type="button" id="button-addon2">Subscribe</button>
+                <input type="email" class="" placeholder="Search article, news or recipe...">
+                <button class="" type="button" id="button-addon2">Search</button>
             </div>
         </div>
     </section>
@@ -99,18 +99,61 @@
 
 
     <!-- start blog article -->
-    <section class="ingredients-section py-5">
+    <section class="main-section blog-articles py-5">
         <div class="container">
             <div class="row main-row">
                 <div class="col-lg-8 col-md-12 left-section">
                     <div class="row">
-                        <div class="card col-12">
-                            <img src="./images/blog/1.png">
-                            <div class="card-body">
-                                <h5 class="card-title">The Creamiest Creamy Chicken and Mushroom Pasta</h5>
-                                <p class="card-text">By Andreas Paula</p>
-                            </div>
-                        </div>
+                        <script>
+                            const blogs = [
+                                {
+                                    title: "Crochet Projects for Noodle Lovers",
+                                    name: "Wade Warren",
+                                },
+                                {
+                                    title: "10 Vegetarian Recipes To Eat This Month",
+                                    name: "Robert Fox",
+                                },
+                                {
+                                    title: "Full Guide to Becoming a Professional Chef",
+                                    name: "Dianne Russell",
+                                }, {
+                                    title: "Simple & Delicious Vegetarian Lasagna",
+                                    name: "Leslie Alexander",
+                                },
+                                {
+                                    title: "Plantain and Pinto Stew with Aji Verde",
+                                    name: "Courtney Henry",
+                                },
+                                {
+                                    title: "We’re Hiring a Communications Assistant!",
+                                    name: "Albert Flores",
+                                },
+                            ];
+                            for (let i = 0; i < blogs.length; i++) {
+                                document.write(`
+                                <div class="card col-12  d-flex flex-row p-3 border-0">
+                                    <img src="./images/blog-imgs/${i + 1}.png" class="blog-img">
+                                    <div class="card-body">
+                                        <div class="card-text">
+                                            <h5 class="card-title">${blogs[i].title}</h5>
+                                            <p class="card-text">Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do
+                                                eiusmod tempor incididunt ut labore et dolore magna aliqut enim </p>
+                                        </div>
+                                        <div class="card-info">
+                                            <div class="card-info-left">
+                                                <img src="./images/blg-persons/${i + 1}.png" alt="">
+                                                <p>${blogs[i].name}</p>
+                                            </div>
+                                            <div class="card-info-right">
+                                                <p>12 November 2021</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                `);
+                            }
+                        </script>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-12 right-section">
@@ -161,6 +204,20 @@
                     </div>
                 </div>
             </div>
+            <nav aria-label="...">
+                <ul class="custome-pagination">
+                    <li class="page-item active" aria-current="page">
+                        <span class="page-link">1</span>
+                    </li>
+                    <li class="page-item"><span class="page-link">2</span></li>
+                    <li class="page-item"><span class="page-link">3</span></li>
+                    <li class="page-item"><span class="page-link">4</span></li>
+                    <li class="page-item"><span class="page-link">5</span></li>
+                    <li class="page-item"><span class="page-link">...</span></li>
+                    <li class="page-item"><span class="page-link">></span></li>
+                </ul>
+            </nav>
+        </div>
     </section>
     <!-- end blog article -->
 
@@ -191,7 +248,7 @@
                 <div class="col-md-6 footer-right">
                     <ul>
                         <li><a href="./Recipes.html">Recipes</a></li>
-                        <li><a href="./Blog.html">Blog</a></li>
+                        <li><a href="./Blog-List.html">Blog</a></li>
                         <li><a href="./Contact.html">Contact</a></li>
                         <li><a href="./About.html">About us</a></li>
                     </ul>
