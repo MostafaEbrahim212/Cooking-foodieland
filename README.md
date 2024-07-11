@@ -1,16 +1,16 @@
 # Foodieland
 
-![ScreenShot](./images/pages-pics/Home.jpeg)
-![ScreenShot](./images/pages-pics/Recipes.jpeg)
-![ScreenShot](./images/pages-pics/Blog-List.jpeg)
-![ScreenShot](./images/pages-pics/Blog-Post.jpeg)
-![ScreenShot](./images/pages-pics/Contact.jpeg)
-# Project Title
 
+# Project Title
+<h1 style="text-align:center; margin-bottom:2rem;">Foodieland</h1>
 ## Images
 
 <div style="display: flex; justify-content: space-around;">
     <img src="./images/pages-pics/Home.jpeg" alt="Image 1" style="width: 150px; height: auto;">
+    <img src="./images/pages-pics/Recipes.jpeg" alt="Image 1" style="width: 150px; height: auto;">
+    <img src="./images/pages-pics/Blog-List.jpeg" alt="Image 1" style="width: 150px; height: auto;">
+    <img src="./images/pages-pics/Blog-Post.jpeg" alt="Image 1" style="width: 150px; height: auto;">
+    <img src="./images/pages-pics/Contact.jpeg" alt="Image 1" style="width: 150px; height: auto;">
 </div>
 
 Foodieland هو موقع ويب مخصص لعشاق الطعام. يوفر وصفات، نصائح طهي، وأخبار عن أحدث الاتجاهات في عالم الطعام.
