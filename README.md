@@ -12,6 +12,8 @@
 
 Foodieland is a website dedicated to food enthusiasts. It provides recipes, cooking tips, and news about the latest trends in the food world.
 
+**<a href="https://foodieland-steel.vercel.app/" target="_blank">Demo Project</a>**
+
 ## Contents
 
 - [Introduction](#introduction)
@@ -20,8 +22,6 @@ Foodieland is a website dedicated to food enthusiasts. It provides recipes, cook
 - [Usage](#usage)
 - [Basic Structure](#basic-structure)
 - [Technologies Used](#technologies-used)
-- [Contributors](#contributors)
-- [Licenses](#licenses)
 
 ## Introduction
 
@@ -44,6 +44,15 @@ Foodieland is a website developed using HTML, CSS, JavaScript, Bootstrap, and Fo
 ## Usage
 
 Once you open the site, you can browse different recipes, search for specific recipes, and check out food-related tips and news.
+
+## Technologies Used
+
+- HTML
+- CSS
+- JavaScript
+- Bootstrap
+- FontAwesome
+
 
 ## Basic Structure
 
