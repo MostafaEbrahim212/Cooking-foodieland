@@ -1,11 +1,7 @@
 # Foodieland
-
-
-# Project Title
-<h1 style="text-align:center; margin-bottom:2rem;">Foodieland</h1>
 ## Images
 
-<div style="display: flex; justify-content: space-around;">
+<div style="display: flex; justify-content: space-around; align-items:start;">
     <img src="./images/pages-pics/Home.jpeg" alt="Image 1" style="width: 150px; height: auto;">
     <img src="./images/pages-pics/Recipes.jpeg" alt="Image 1" style="width: 150px; height: auto;">
     <img src="./images/pages-pics/Blog-List.jpeg" alt="Image 1" style="width: 150px; height: auto;">
