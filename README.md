@@ -5,7 +5,9 @@
 ![ScreenShot](./images/pages-pics/Blog-List.jpeg)
 ![ScreenShot](./images/pages-pics/Blog-Post.jpeg)
 ![ScreenShot](./images/pages-pics/Contact.jpeg)
-
+<div style="display: flex; justify-content: space-around;">
+    <img src="./images/pages-pics/Home.jpeg" alt="Image 1" width="200" height="200">
+</div>
 Foodieland هو موقع ويب مخصص لعشاق الطعام. يوفر وصفات، نصائح طهي، وأخبار عن أحدث الاتجاهات في عالم الطعام.
 
 ## المحتويات
