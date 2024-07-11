@@ -20,8 +20,8 @@ Foodieland is a website dedicated to food enthusiasts. It provides recipes, cook
 - [Features](#features)
 - [Installation and Running](#installation-and-running)
 - [Usage](#usage)
-- [Basic Structure](#basic-structure)
 - [Technologies Used](#technologies-used)
+- [Basic Structure](#basic-structure)
 
 ## Introduction
 
