@@ -81,17 +81,25 @@
     <!-- end nav -->
 
     <!-- start blog article landing -->
-    <section class="landing-blog py-5">
-        <div class="container">
+    <section class="landing-blog-post py-5">
+        <div class="container py-5">
             <div class="landing-text">
-                <h2>Blog & Article</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore</p>
+                <h2>Full Guide to Becoming a Professional Chef</h2>
+                <div class="blog-info">
+                    <div class="blgo-info-left">
+                        <img src="./images/Ellipse 2.svg" alt="">
+                        <h4>John Smith</h4>
+                    </div>
+                    <div class="blgo-info-right">
+                        <p>15 March 2022</p>
+                    </div>
+                </div>
+                <p class="blog-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac ultrices odio.
+                    Nulla at congue
+                    diam, at dignissim turpis. Ut vehicula sed velit a faucibus. In feugiat vestibulum velit vel
+                    pulvinar.</p>
             </div>
-            <div class="email-group">
-                <input type="email" class="" placeholder="Search article, news or recipe...">
-                <button class="" type="button" id="button-addon2">Search</button>
-            </div>
+            <img class="landing-img" src="./images/landing-blog-img.png" alt="">
         </div>
     </section>
     <!-- end blog article landing -->
@@ -103,120 +111,69 @@
         <div class="container">
             <div class="row main-row">
                 <div class="col-lg-8 col-md-12 left-section">
-                    <div class="row">
-                        <script>
-                            const blogs = [
-                                {
-                                    title: "Crochet Projects for Noodle Lovers",
-                                    name: "Wade Warren",
-                                },
-                                {
-                                    title: "10 Vegetarian Recipes To Eat This Month",
-                                    name: "Robert Fox",
-                                },
-                                {
-                                    title: "Full Guide to Becoming a Professional Chef",
-                                    name: "Dianne Russell",
-                                }, {
-                                    title: "Simple & Delicious Vegetarian Lasagna",
-                                    name: "Leslie Alexander",
-                                },
-                                {
-                                    title: "Plantain and Pinto Stew with Aji Verde",
-                                    name: "Courtney Henry",
-                                },
-                                {
-                                    title: "We’re Hiring a Communications Assistant!",
-                                    name: "Albert Flores",
-                                },
-                            ];
-                            for (let i = 0; i < blogs.length; i++) {
-                                document.write(`
-                                <div class="card col-12  d-flex flex-row p-3 border-0">
-                                    <img src="./images/blog-imgs/${i + 1}.png" class="blog-img">
-                                    <div class="card-body">
-                                        <div class="card-text">
-                                            <h5 class="card-title">${blogs[i].title}</h5>
-                                            <p class="card-text">Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do
-                                                eiusmod tempor incididunt ut labore et dolore magna aliqut enim </p>
-                                        </div>
-                                        <div class="card-info">
-                                            <div class="card-info-left">
-                                                <img src="./images/blg-persons/${i + 1}.png" alt="">
-                                                <p>${blogs[i].name}</p>
-                                            </div>
-                                            <div class="card-info-right">
-                                                <p>12 November 2021</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                `);
-                            }
-                        </script>
+                    <div class="article">
+                        <h5>How did you start out in the food industry?</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac ultrices odio. Nulla at
+                            congue diam, at dignissim turpis. Ut vehicula sed velit a faucibus. In feugiat vestibulum
+                            velit vel pulvinar. Fusce id mollis ex. Praesent feugiat elementum ex ut suscipit.</p>
+                    </div>
+                    <div class="article">
+                        <h5>What do you like most about your job?</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac ultrices odio. Nulla at
+                            congue diam, at dignissim turpis. Ut vehicula sed velit a faucibus. In feugiat vestibulum
+                            velit vel pulvinar. Fusce id mollis ex. Praesent feugiat elementum ex ut suscipit.</p>
+                    </div>
+                    <div class="article">
+                        <h5>Do you cook at home on your days off?</h5>
+                        <img src="./images/article-image.png" alt="">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac ultrices odio. Nulla at
+                            congue diam, at dignissim turpis. Ut vehicula sed velit a faucibus. In feugiat vestibulum
+                            velit vel pulvinar. Fusce id mollis ex. Praesent feugiat elementum ex ut suscipit.</p>
+                    </div>
+                    <div class="article">
+                        <h5>What would your advice be to young people looking to get their foot in the door?</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac ultrices odio. Nulla at
+                            congue diam, at dignissim turpis. Ut vehicula sed velit a faucibus. In feugiat vestibulum
+                            velit vel pulvinar. Fusce id mollis ex. Praesent feugiat elementum ex ut suscipit.</p>
+                    </div>
+                    <div class="wise">
+                        <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac ultrices odio.”</p>
+                    </div>
+                    <div class="article">
+                        <h5>What is the biggest misconception that people have about being a professional chef?</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac ultrices odio. Nulla at
+                            congue diam, at dignissim turpis. Ut vehicula sed velit a faucibus. In feugiat vestibulum
+                            velit vel pulvinar. Fusce id mollis ex. Praesent feugiat elementum ex ut suscipit.</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-12 right-section">
-                    <h4>Other Recipe</h4>
-                    <div class="row other-recipe-row">
-                        <div class="other-recipe-card card col-lg-12 col-md-6  border-0">
-                            <div class="other-recipe col-lg-12 col-md-12">
-                                <img src="./images/otherRecipe/1.png" alt="">
-                                <div class="recipe-content">
-                                    <h6>Chicken Meatball with Creamy Chees...</h6>
-                                    <p>By Andreas Paula</p>
-                                </div>
-                            </div>
-                            <div class="other-recipe col-lg-12 col-md-12">
-                                <img src="./images/otherRecipe/2.png" alt="">
-                                <div class="recipe-content">
-                                    <h6>The Creamiest Creamy Chicken an...</h6>
-                                    <p>By Andreas Paula</p>
-                                </div>
-                            </div>
-                            <div class="other-recipe col-lg-12 col-md-12">
-                                <img src="./images/otherRecipe/1.png" alt="">
-                                <div class="recipe-content">
-                                    <h6>Chicken Meatball with Creamy Chees...</h6>
-                                    <p>By Andreas Paula</p>
-                                </div>
-                            </div>
-                            <div class="other-recipe col-lg-12 col-md-12">
-                                <img src="./images/otherRecipe/2.png" alt="">
-                                <div class="recipe-content">
-                                    <h6>The Creamiest Creamy Chicken an...</h6>
-                                    <p>By Andreas Paula</p>
-                                </div>
-                            </div>
+                    <h4>Social Media States</h4>
+                    <!-- start social media  -->
+                    <div class="social-media">
+                        <div class="box twitter  between-flex">
+                            <i class="fa-brands fa-twitter fa-2x c-white h-full center-flex"></i>
+                            <span>90K Follwers</span>
+                            <a href="#" class="fs-13 c-white btn-shape">Follow</a>
                         </div>
-                        <div class="ad-card card col-lg-12 col-md-6 p-3  border-0 ">
-                            <div class="card-body">
-                                <h5 class="card-title text-center">Don’t forget to eat <br>
-                                    healthy food</h5>
-                                <div class="card-body">
-                                    <img src="./images/dishes/ad.png" alt="">
-                                </div>
-                                <div class="card-footer bg-transparent border-0 text-center">
-                                    <p>www.foodieland.com</p>
-                                </div>
-                            </div>
+                        <div class="box facebook">
+                            <i class="fa-brands fa-facebook fa-2x c-white h-full center-flex"></i>
+                            <span>70K Like</span>
+                            <a href="#" class="fs-13 c-white btn-shape">Like</a>
+                        </div>
+                        <div class="box youtube">
+                            <i class="fa-brands fa-youtube fa-2x c-white h-full center-flex"></i>
+                            <span>100K Subscriber</span>
+                            <a href="#" class="fs-13 c-white btn-shape">Subscribe</a>
+                        </div>
+                        <div class="box linkedin">
+                            <i class="fa-brands fa-linkedin fa-2x"></i>
+                            <span>60K Follwers</span>
+                            <a href="#" class="fs-13 c-white btn-shape">Follow</a>
                         </div>
                     </div>
+                    <!-- end social media  -->
                 </div>
             </div>
-            <nav aria-label="...">
-                <ul class="custome-pagination">
-                    <li class="page-item active" aria-current="page">
-                        <span class="page-link">1</span>
-                    </li>
-                    <li class="page-item"><span class="page-link">2</span></li>
-                    <li class="page-item"><span class="page-link">3</span></li>
-                    <li class="page-item"><span class="page-link">4</span></li>
-                    <li class="page-item"><span class="page-link">5</span></li>
-                    <li class="page-item"><span class="page-link">...</span></li>
-                    <li class="page-item"><span class="page-link">></span></li>
-                </ul>
-            </nav>
         </div>
     </section>
     <!-- end blog article -->
