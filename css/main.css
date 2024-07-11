@@ -1667,27 +1667,27 @@ footer .footer-top .footer-right ul li a:hover {
 
 
 /* start ingredients */
-.main-ingredients-row {
+.main-row {
     display: flex;
     justify-content: space-between;
     margin-bottom: 4rem;
 }
 
 @media (max-width:1400px) {
-    .main-ingredients-row {
+    .main-row {
         flex-direction: column;
     }
 }
 
-.ingredients-left {
+.left-section {
     margin-bottom: 2rem;
 }
 
 
 @media (max-width:1400px) {
 
-    .ingredients-left,
-    .ingredients-right {
+    .left-section,
+    .right-section {
         width: 100%;
     }
 }
@@ -1729,6 +1729,12 @@ footer .footer-top .footer-right ul li a:hover {
     }
 }
 
+@media (min-width:768px) and (max-width:1400px) {
+    .other-recipe-card {
+        justify-content: start;
+    }
+}
+
 .other-recipe-card .other-recipe:not(:last-child) {
     margin-bottom: 1rem;
 
@@ -1765,7 +1771,7 @@ footer .footer-top .footer-right ul li a:hover {
     margin: auto;
 }
 
-.ingredients-right h4 {
+.right-section h4 {
     margin-bottom: 2rem;
     font-size: 32px;
     font-weight: 600;
@@ -1825,17 +1831,18 @@ footer .footer-top .footer-right ul li a:hover {
 
 
 
-.ingredients-left {
+.left-section {
     display: flex;
     flex-direction: column;
 }
 
-.ingredients-left .ingredients {
+.left-section .ingredients,
+.left-section .directions {
     display: flex;
     flex-direction: column;
 }
 
-.ingredients-left .ingredients h3 {
+.left-section .ingredients h3 {
     color: #000;
     font-family: Inter;
     font-size: 36px;
@@ -1844,7 +1851,7 @@ footer .footer-top .footer-right ul li a:hover {
     margin-bottom: 3rem;
 }
 
-.ingredients-left .ingredients h6 {
+.left-section .ingredients h6 {
     font-family: Inter;
     font-size: 24px;
     font-weight: 600;
@@ -1852,18 +1859,24 @@ footer .footer-top .footer-right ul li a:hover {
     margin-bottom: 2rem;
 }
 
-.ingredients .check-form {
+.ingredients .check-form,
+.directions .check-form {
     position: relative;
     margin-bottom: 2rem;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.10);
     padding: 1rem 0rem;
 }
 
-.ingredients .check-form:last-child {
+.ingredients .check-form {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.10);
+}
+
+.ingredients .check-form:last-child,
+.directions .check-form:last-child {
     margin-bottom: 4rem !important;
 }
 
-.ingredients .check-form input[type="checkbox"] {
+.ingredients .check-form input[type="checkbox"],
+.directions .check-form input[type="checkbox"] {
     position: absolute;
     width: 24px;
     height: 24px;
@@ -1875,7 +1888,8 @@ footer .footer-top .footer-right ul li a:hover {
     z-index: 1000;
 }
 
-.ingredients .check-form .check-mark {
+.ingredients .check-form .check-mark,
+.directions .check-form .check-mark {
     position: absolute;
     left: 0;
     top: 50%;
@@ -1887,7 +1901,8 @@ footer .footer-top .footer-right ul li a:hover {
     cursor: pointer;
 }
 
-.ingredients .check-form .check-mark::before {
+.ingredients .check-form .check-mark::before,
+.directions .check-form .check-mark::before {
     content: url('../images/checked.png');
     position: absolute;
     top: 50%;
@@ -1900,7 +1915,8 @@ footer .footer-top .footer-right ul li a:hover {
     display: none;
 }
 
-.ingredients .check-form input[type="checkbox"]:checked+.check-mark::before {
+.ingredients .check-form input[type="checkbox"]:checked+.check-mark::before,
+.directions .check-form input[type="checkbox"]:checked+.check-mark::before {
     display: block;
 }
 
@@ -1922,13 +1938,60 @@ footer .footer-top .footer-right ul li a:hover {
 }
 
 
-.ingredients-left .directions h3 {
+.left-section .directions h3 {
     color: #000;
     font-family: Inter;
     font-size: 36px;
     font-weight: 600;
     letter-spacing: -1.44px;
     margin-bottom: 3rem;
+}
+
+.left-section .directions .check-form label {
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: -0.48px;
+    margin-left: 4rem;
+}
+
+.left-section .directions .direction {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.10);
+}
+
+.left-section .directions .direction img {
+    width: 100%;
+    border-radius: 30px;
+    margin-bottom: 2rem;
+    max-width: 792px;
+}
+
+.left-section .directions .direction p {
+    color: rgba(0, 0, 0, 0.60);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: -0.32px;
+    margin-bottom: 3rem;
+    max-width: 792px;
+
+}
+
+@media (max-width:996px) {
+    .directions .direction p {
+        text-align: center;
+    }
+}
+
+@media (max-width:768px) {
+    .directions label {
+        font-size: 18px !important;
+        margin-left: 2rem !important;
+    }
 }
 
 /* end ingredients */
