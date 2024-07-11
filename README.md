@@ -1,50 +1,51 @@
 # Foodieland
+
 ## Images
 
-<div style="display: flex; justify-content: space-around; align-items:start;">
-    <img src="./images/pages-pics/Home.jpeg" alt="Image 1" style="width: 150px; height: auto;">
-    <img src="./images/pages-pics/Recipes.jpeg" alt="Image 1" style="width: 150px; height: auto;">
-    <img src="./images/pages-pics/Blog-List.jpeg" alt="Image 1" style="width: 150px; height: auto;">
-    <img src="./images/pages-pics/Blog-Post.jpeg" alt="Image 1" style="width: 150px; height: auto;">
-    <img src="./images/pages-pics/Contact.jpeg" alt="Image 1" style="width: 150px; height: auto;">
+<div style="display: flex; justify-content: space-around; align-items: start;">
+    <img src="./images/pages-pics/Home.jpeg" alt="Home" style="width: 150px; height: auto;">
+    <img src="./images/pages-pics/Recipes.jpeg" alt="Recipes" style="width: 150px; height: auto;">
+    <img src="./images/pages-pics/Blog-List.jpeg" alt="Blog List" style="width: 150px; height: auto;">
+    <img src="./images/pages-pics/Blog-Post.jpeg" alt="Blog Post" style="width: 150px; height: auto;">
+    <img src="./images/pages-pics/Contact.jpeg" alt="Contact" style="width: 150px; height: auto;">
 </div>
 
-Foodieland هو موقع ويب مخصص لعشاق الطعام. يوفر وصفات، نصائح طهي، وأخبار عن أحدث الاتجاهات في عالم الطعام.
+Foodieland is a website dedicated to food enthusiasts. It provides recipes, cooking tips, and news about the latest trends in the food world.
 
-## المحتويات
+## Contents
 
-- [المقدمة](#المقدمة)
-- [المميزات](#المميزات)
-- [التثبيت والتشغيل](#التثبيت-والتشغيل)
-- [الاستخدام](#الاستخدام)
-- [البنية الأساسية](#البنية-الأساسية)
-- [التكنولوجيا المستخدمة](#التكنولوجيا-المستخدمة)
-- [المساهمين](#المساهمين)
-- [التراخيص](#التراخيص)
+- [Introduction](#introduction)
+- [Features](#features)
+- [Installation and Running](#installation-and-running)
+- [Usage](#usage)
+- [Basic Structure](#basic-structure)
+- [Technologies Used](#technologies-used)
+- [Contributors](#contributors)
+- [Licenses](#licenses)
 
-## المقدمة
+## Introduction
 
-Foodieland هو موقع ويب تم تطويره باستخدام HTML، CSS، JavaScript، Bootstrap، و FontAwesome. يهدف الموقع إلى توفير مجموعة واسعة من الوصفات للمستخدمين بالإضافة إلى النصائح والأخبار المتعلقة بالطعام.
+Foodieland is a website developed using HTML, CSS, JavaScript, Bootstrap, and FontAwesome. The site aims to provide a wide range of recipes to users along with tips and news related to food.
 
-## المميزات
+## Features
 
-- **وصفات متنوعة:** مجموعة واسعة من الوصفات من مختلف المطابخ العالمية.
-- **تصميم متجاوب:** تصميم الموقع متجاوب ليتوافق مع جميع الأجهزة.
-- **واجهة مستخدم سهلة الاستخدام:** تم تصميم واجهة المستخدم لتكون بديهية وسهلة الاستخدام.
-- **بحث متقدم:** يمكن للمستخدمين البحث عن الوصفات بسهولة باستخدام محرك بحث متقدم.
-- **نظام تصنيف:** يمكن للمستخدمين تصنيف الوصفات والإضافة إلى المفضلة.
+- **Diverse Recipes:** A wide range of recipes from various global cuisines.
+- **Responsive Design:** The site is designed to be responsive to fit all devices.
+- **User-Friendly Interface:** The user interface is intuitive and easy to use.
+- **Advanced Search:** Users can easily search for recipes using an advanced search engine.
+- **Rating System:** Users can rate recipes and add them to favorites.
 
-## التثبيت والتشغيل
+## Installation and Running
 
-### المتطلبات
+### Requirements
 
-- متصفح ويب حديث
+- A modern web browser
 
-## الاستخدام
+## Usage
 
-بمجرد فتح الموقع، يمكنك التصفح بين الوصفات المختلفة، البحث عن وصفات محددة، والاطلاع على النصائح والأخبار المتعلقة بالطعام.
+Once you open the site, you can browse different recipes, search for specific recipes, and check out food-related tips and news.
 
-## البنية الأساسية
+## Basic Structure
 
 ```plaintext
 foodieland/
@@ -57,7 +58,7 @@ foodieland/
 │   │   ├── normalize.css
 │   │   └── variables.css
 │   ├── component/
-│   │   └── (فارغ حاليا)
+│   │   └── (currently empty)
 │   └── main.css
 ├── js/
 │   ├── all.min.js
